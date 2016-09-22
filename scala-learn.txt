@@ -1,0 +1,46 @@
+--- Scala script
+
+    Файл scala script имеет расширение scala
+    Запуск скрипта - scala hello.scala
+
+--- Комментарии
+
+    //      - одиночные
+    /* */   - многострочные
+
+
+--- Переменные
+
+  - Константные переменные val
+  - Переменные var
+
+      Тип можно указывать, а можно нет
+        val msg: String = "Hello"
+        var i = 10
+
+
+--- Функции
+
+Функция с параметрами
+
+    def max(x: Int, y: Int): Int = {
+      if (x > y) x
+      else y
+    }
+
+Процедура без параметров и без возвращаемого значения (тип Unit)
+
+    def greet() = println("Hekko")
+
+--- Циклы do и while
+
+    Такие же как и в Java
+
+        var i: Int = 0
+        while (i< args.length){
+          println(args(i))
+          i += 1
+        }
+
+
+        
