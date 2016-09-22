@@ -42,5 +42,15 @@
           i += 1
         }
 
+--- foreach и for
 
-        
+    Использование foreach
+        args.foreach(arg => println(arg))
+
+    можно указать тип параметра
+
+        args.foreach((arg: String) => println(arg))
+
+    если используется один аргумент и одно выражение в теле, то можно опустить параметры
+
+        args.foreach(println)
